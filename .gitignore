@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+dist/
+.parcel-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp
+*.log
+*.tmp
+
+# Secrets (never commit)
+.env
+.env.*

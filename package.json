@@ -1,0 +1,15 @@
+{
+  "name": "readers-haven-library",
+  "version": "1.0.0",
+  "description": "Static informational website for the fictional Readers' Haven public library. Built for **DevOps Fundamentals (SEST4663) - Assignment 02** (Docker multi-stage build). Plain HTML and CSS only. Node.js and Parcel are used only as build tools.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html src/collections.html src/membership.html src/services.html src/contact.html --dist-dir dist --public-url ./ --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
