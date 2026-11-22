@@ -161,3 +161,20 @@ form button:hover { background: #115e59; }
   form button { width: 100%; }
   .contact-list li { font-size: 0.95rem; }
 }
+
+/* ---- Membership page (membership.html) ---- */
+.plan-table { width: 100%; border-collapse: collapse; }
+.plan-table th, .plan-table td {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #d5dfec;
+}
+.plan-table th { background: #dbeafe; color: #1e3a5f; }
+.fee { font-weight: 700; color: #0f766e; white-space: nowrap; }
+.rule-list { padding-left: 1.2rem; }
+.rule-list li { margin-bottom: 0.4rem; }
+
+/* ---- Membership responsive  ---- */
+@media (max-width: 620px) {
+  .plan-table th, .plan-table td { font-size: 0.85rem; padding: 0.4rem 0.3rem; }
+}
