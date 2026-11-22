@@ -34,3 +34,4 @@ EXPOSE 80
 
 # Run Nginx in the foreground so the container keeps running
 CMD ["nginx", "-g", "daemon off;"]
+# End of Dockerfile 
