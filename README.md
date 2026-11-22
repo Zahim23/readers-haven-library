@@ -50,3 +50,5 @@ docker image build -t <dockerhub-username>/readers-haven:v1-<page-name> .
 docker container run -d --name haven-<dockerhub-username> -p 808<Sr>:80 <dockerhub-username>/readers-haven:v1-<page-name>
 ```
 Open http://localhost:808<Sr> in a browser.
+
+Release v2.0: all five pages merged and tested. 
