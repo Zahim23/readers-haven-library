@@ -27,7 +27,6 @@ p { margin-bottom: 0.8rem; }
   list-style: none;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 .main-nav a {
   display: block;
@@ -82,4 +81,33 @@ main { max-width: 1000px; margin: 1.5rem auto; padding: 0 1rem; }
   .main-nav ul { flex-direction: column; }
   .main-nav a { text-align: center; border-top: 1px solid rgba(255,255,255,0.15); }
   .hero h2 { font-size: 1.4rem; }
+}
+
+/* ---- Contact page (contact.html) ---- */
+.contact-list { list-style: none; }
+.contact-list li { padding: 0.3rem 0; }
+form label { display: block; font-weight: 600; margin: 0.8rem 0 0.2rem; }
+form input, form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #b8c7da;
+  border-radius: 6px;
+  font: inherit;
+}
+form button {
+  margin-top: 1rem;
+  background: #0f766e;
+  color: #fff;
+  border: 0;
+  padding: 0.7rem 1.6rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+form button:hover { background: #115e59; }
+
+/* ---- Contact responsive (edit the values to make it yours) ---- */
+@media (max-width: 600px) {
+  form button { width: 100%; }
+  .contact-list li { font-size: 0.95rem; }
 }
