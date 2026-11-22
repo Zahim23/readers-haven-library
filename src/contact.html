@@ -3,9 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Readers' Haven</title>
+  <title>Readers' Haven - Contact &amp; Feedback</title>
   <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
+  <header class="site-header">
+    <h1>Readers' Haven</h1>
+    <p class="tagline">Your city public library – read, learn, connect</p>
+  </header>
+  <nav class="main-nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="services.html">Digital Services</a></li>
+        <li><a href="contact.html" class="active">Contact &amp; Feedback</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Contact &amp; Feedback</h2>
+
+    <div class="grid">
+      <section class="card">
+        <h3>Contact Details</h3>
+        <ul class="contact-list">
+          <li><strong>Address:</strong> 45 Garden Road, Model Town, Lahore</li>
+          <li><strong>Phone:</strong> +92 42 3555 0147</li>
+          <li><strong>Email:</strong> <a href="mailto:info@readershaven.example">info@readershaven.example</a></li>
+          <li><strong>Hours:</strong> Mon–Fri 9:00 AM – 7:00 PM, Sat 10:00 AM – 5:00 PM</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h3>Send Us a Message</h3>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Readers' Haven Public Library | Lahore, Pakistan</p>
+  </footer>
 </body>
 </html>
